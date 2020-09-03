@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightBlue"
+    tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/topTextField"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+
+        android:gravity="center_horizontal"
+        android:text="TicTacToe"
+        android:textStyle="bold"
+        android:textSize="60dp"
+        />
+
+    <Button
+        android:id="@+id/buttonStartGame"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/topTextField"
+        android:layout_marginTop="40dp"
+
+
+
+        android:text="Play!"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:background="@color/colorLightOrange"
+
+        />
+
+    <Button
+        android:id="@+id/buttonSettings"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/buttonStartGame"
+        android:layout_marginTop="20dp"
+
+        android:text="Settings"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:background="@color/colorBeige"
+        />
+
+
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
